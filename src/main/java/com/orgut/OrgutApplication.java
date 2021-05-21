@@ -98,7 +98,7 @@ public class OrgutApplication implements CommandLineRunner{
 		Andress ad1 = new Andress(null, "Rua laranja", "10", "centro", "88900-000", c1, douglas);
 		Andress ad2 = new Andress(null, "Rua azul", "20", "centro", "88900-111", c2, flavia);
 		Andress ad3 = new Andress(null, "Rua vermelha", "30", "centro", "88900-222", c3, eric);
-		Andress ad4 = new Andress(null, "Rua amarela", "40", "centro", "88900-333", c4, eric);
+		Andress ad4 = new Andress(null, "Rua cinza", "40", "centro", "88900-333", c4, eric);
 		
 		andressRepository.saveAll(Arrays.asList(ad1, ad2, ad3, ad4));
 		
