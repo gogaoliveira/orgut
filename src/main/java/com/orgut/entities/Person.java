@@ -59,6 +59,13 @@ public class Person implements Serializable{
 		this.activies = activies;
 	}
 
+	public Integer getTotalCommunitiesForPerson() {
+		Integer soma = 0;
+		for (Communities in : communities) {
+			soma += in.TotalCommunities();
+		}
+		return soma;
+	}
 	public Integer getId() {
 		return id;
 	}

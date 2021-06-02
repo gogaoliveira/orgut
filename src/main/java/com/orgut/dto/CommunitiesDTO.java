@@ -20,6 +20,8 @@ public class CommunitiesDTO implements Serializable {
 		name = obj.getName();
 		
 	}
+	
+	
 
 	public Integer getId() {
 		return id;

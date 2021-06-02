@@ -43,6 +43,10 @@ public class Communities implements Serializable{
 		this.name = name;
 		this.description = description;
 	}
+	
+	public Integer TotalCommunities() {
+		return 1;
+	}
 
 	public Integer getId() {
 		return id;
