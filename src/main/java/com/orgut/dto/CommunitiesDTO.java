@@ -2,19 +2,20 @@ package com.orgut.dto;
 
 import java.io.Serializable;
 
-import com.orgut.entities.Person;
+import com.orgut.entities.Communities;
 
-public class PersonDTO implements Serializable {
+
+public class CommunitiesDTO implements Serializable {
 	private static final long serialVersionUID = 1L;
 	
 	private Integer id;
 	private String name;
 
 	
-	public PersonDTO() {
+	public CommunitiesDTO() {
 	}
 	
-	public PersonDTO(Person obj) {
+	public CommunitiesDTO(Communities obj) {
 		id = obj.getId();
 		name = obj.getName();
 		

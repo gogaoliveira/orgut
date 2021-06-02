@@ -44,6 +44,7 @@ public class Person implements Serializable{
 	@OneToMany(mappedBy = "person")
 	private List<Andress> andress = new ArrayList<>();
 	
+	
 	public Person() {
 	}
 
@@ -146,6 +147,8 @@ public class Person implements Serializable{
 	public void setAndress(List<Andress> andress) {
 		this.andress = andress;
 	}
+	
+
 
 	@Override
 	public int hashCode() {
@@ -170,5 +173,7 @@ public class Person implements Serializable{
 		} else if (!id.equals(other.id))
 			return false;
 		return true;
-	}	
+	}
+
 }
+	
